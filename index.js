@@ -10,7 +10,7 @@ const reset = require("./models/searchform");
 const recipt = require("./models/recipt.js");
 const bodyParser      = require("body-parser");
 const methodOverride  = require("method-override");
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const fast2sms = require('fast-two-sms');
 const dotenv = require("dotenv");
 dotenv.config();
